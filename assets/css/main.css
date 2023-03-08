@@ -627,7 +627,7 @@ body{
     left:23px;
     right:0;
     height:100%;
-    background-color:#054A91;
+    background-color:transparent;
     z-index:-1;
     -webkit-transition:left .2s ease-in-out;
     transition:left .2s ease-in-out
