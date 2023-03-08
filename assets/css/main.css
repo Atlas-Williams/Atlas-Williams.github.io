@@ -3026,7 +3026,7 @@ body{
     transition:transform .4s;
     transition:transform .4s, -webkit-transform .4s
 }
-.modalview .container{
+.twitterButton .container{
     position:absolute;
     width:100%;
     height:100%;
@@ -3173,11 +3173,11 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     cursor: pointer;
   }
-  #eighth>button{
+  .twitterButton>button{
     transition: all .18s ease-in-out;
   }
   
-  #eighth:hover button{
+  .twitterButton:hover button{
     text-shadow:
       0 0 30px rgba(255,255,255, 1),
       0 0 60px hex(#E6F5FE, .8),
