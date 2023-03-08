@@ -1,3 +1,10 @@
+:root {
+    --myWhite: #FEFCFD;
+    --robinEggBlue: #3DD6D0;
+    --night: #0a0f0d;
+    --lapisLazuli: #0c6291;
+    --polynesianBlue: #054a91;
+}
 @font-face{
     font-family:'Montserrat';
     src:url("fonts/Montserrat-Black.eot");
@@ -3173,14 +3180,14 @@ body{
   #eighth:hover button{
     text-shadow:
       0 0 30px rgba(255,255,255, 1),
-      0 0 60px rgba(255, 255, 255, .8),
-      0 0 75px rgba(255, 255, 255, .6),
-      0 0 80px rgba(255, 255, 255, .4),
-      0 0 77px rgba(255, 255, 255, .5),
-      0 0 78px rgba(255, 255, 255, .4),
-      0 0 79px rgba(255, 255, 255, .3),
-      0 0 80px rgba(255, 255, 255, .2),
-      0 0 120px rgba(255, 255, 255, .1);
+      0 0 60px hex(#E6F5FE, .8),
+      0 0 75px hex(#D2ECFD, .6),
+      0 0 80px hex(#AEDDFB, .4),
+      0 0 77px hex(#93D2F9, .5),
+      0 0 78px hex(#73C5F7, .4),
+      0 0 79px hex(#5FBCF6, .3),
+      0 0 80px hex(#4DB5F5, .2),
+      0 0 120px hex(#3DAEF4, .1);
   }
   @keyframes h{
     0%{transform:translate(0, 0);}
